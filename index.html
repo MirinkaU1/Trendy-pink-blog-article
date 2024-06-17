@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="fr" data>
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-
+  <title>Trendy Pink Blog</title>
+  <link rel="shortcut icon" href="assets/logo/2.png" type="image/x-png">
+  <script src="src/script.js"></script>
   <!-- Tailwind CSS -->
   <link rel="stylesheet" href="assets/css/tailwind.css">
 
@@ -99,7 +100,7 @@
   
   <!-- HERO -->
   <div class="relative isolate px-6 pt-14 lg:px-8 bg-indigo-600">
-    <div class="mx-auto max-w-2xl pt-40 pb-10">
+    <div class="mx-auto max-w-2xl pt-40 pb-10 selection:bg-white selection:text-indigo-600">
       <div class="text-center">
         <h1 class="text-5xl font-normal tracking-tight text-white">Bienvenue sur le blog des <br><span class="logoAnim font-bold font-Jost text-transparent uppercase">TRENDY PINK</span></h1>
         <p class="mt-6 text-lg leading-normal text-white">N'hésittez pas à vous abonner pour ne rien manquer de nos dernières publications !</p>
@@ -118,7 +119,7 @@
   </div>
   
   <!-- NEW ARTICLE -->
-  <div class="flex mx-5 my-10 sm:m-10 flex-col">
+  <div class="flex mx-4 my-10 sm:m-20 flex-col">
     <div class="flex items-center justify-between mb-5">
       <h1 class="text-3xl font-bold">Nouveaux Blogs</h1>
       <a href="#" class="flex items-center text-indigo-600">Tous nos blogs <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
@@ -126,7 +127,7 @@
       </svg></a>
     </div>
     
-    <div class="grid grid-cols-1 gap-4 sm:gap-4 sm:flex">
+    <div class="grid grid-cols-1 gap-4 sm:gap-8 sm:flex">
       <div class="card w-auto">
         <img src="assets/img/Checkpoint Bootstrap 2.png" alt="card" class="rounded-md"/>
         <div class="card-body p-0 pt-2 mb-5 bg-white text-black">
@@ -206,9 +207,9 @@
   </div>
 
   <!-- A LA UNE -->
-  <div class="flex flex-col gap-2 px-10 py-10 items-center w-full h-lvh bg-indigo-200 rounded-xl sm:h-4/5 sm:gap-16 sm:flex-row sm:py-20 sm:px-20">
+  <div class="flex flex-col gap-2 px-10 py-10 items-center w-full h-lvh bg-indigo-200 rounded-xl selection:bg-black selection:text-indigo-200 sm:h-4/5 sm:gap-16 sm:flex-row sm:py-20 sm:px-20">
     <div class="flex flex-col sm:w-1/2 sm:self-start sm:pt-5">
-      <h1 class="text-4xl font-semibold sm:text-4xl mb-3">Why Product Design must learning Motion</h1>
+      <h1 class="text-4xl font-Jost font-semibold sm:text-4xl mb-3">Why Product Design must learning Motion</h1>
       <p class="mb-3">Why motion is an essential part of the designer toolkit - Motion is a storytelling medium. It builds a narrative that provides context to the user.</p>
       <div class="flex mb-7">
         <div class="badge mr-2 py-4">
@@ -263,24 +264,142 @@
         <a href="#" class="text-[10px] font-semibold sm:text-xs ">Tailwind</a>
       </div>
     </div>
+  </div>
+      
+  <!-- CASE STUDY -->
+  <div class="flex mx-4 my-10 sm:m-20  flex-col">
+    <div class="flex items-center justify-between mb-5">
+      <h1 class="text-3xl font-bold">Case Study</h1>
+      <a href="#" class="flex items-center text-indigo-600">View Case Study</a>
+    </div>
+    
+    <div class="grid grid-cols-1 gap-4 sm:gap-8 sm:flex">
+      <div class="card w-auto">
+        <img src="assets/img/Checkpoint Bootstrap 2.png" alt="card" class="rounded-md"/>
+        <div class="card-body p-0 pt-2 mb-5 bg-white text-black">
+          <div class="flex">
+            <div class="badge mr-2 py-4">
+              <a href="#" class="text-xs font-semibold sm:text-xs">HTML/CSS</a>
+            </div>
+            <div class="badge py-4">
+              <a href="#" class="text-xs font-semibold sm:text-xs">Bootstrap</a>
+            </div>
+          </div>
+          <h2 class="card-title text-lg sm:text-xl">Checkpoint Bootstrap 2</h2>
+          <p class="text-sm sm:text-lg">Decouvrez comment coder un site vitrine pour vente de montre...</p>
+          <a href="#" class="text-indigo-600 flex items-center gap-2">Lire l'article<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+            <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+          </svg></a>
+        </div>
+      </div>
 
+      <div class="card w-auto ">
+        <img src="assets/img/Checkpoint Bootstrap 2.png" alt="card" class="rounded-md border-black"/>
+        <div class="card-body p-0 pt-2 bg-white text-black">
+          <div class="flex">
+            <div class="badge mr-2 py-4">
+              <a href="#" class="text-xs font-semibold sm:text-xs">HTML/CSS</a>
+            </div>
+            <div class="badge py-4">
+              <a href="#" class="text-xs font-semibold sm:text-xs">Bootstrap</a>
+            </div>
+          </div>
+          <h2 class="card-title text-lg sm:text-xl">Checkpoint Bootstrap 2</h2>
+          <p class="text-sm sm:text-lg">Decouvrez comment coder un site vitrine pour vente de montre</p>
+          <a href="#" class="text-indigo-600 flex items-center gap-2">Lire l'article<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+            <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+          </svg></a>
+        </div>
+      </div>
 
+      <div class="card w-auto ">
+        <img src="assets/img/Checkpoint Bootstrap 2.png" alt="card" class="rounded-md border-black"/>
+        <div class="card-body p-0 pt-2 bg-white text-black">
+          <div class="flex">
+            <div class="badge mr-2 py-4">
+              <a href="#" class="text-xs font-semibold sm:text-xs">HTML/CSS</a>
+            </div>
+            <div class="badge py-4">
+              <a href="#" class="text-xs font-semibold sm:text-xs">Bootstrap</a>
+            </div>
+          </div>
+          <h2 class="card-title  text-lg sm:text-xl">Checkpoint Bootstrap 2</h2>
+          <p class="text-sm sm:text-lg">Decouvrez comment coder un site vitrine pour vente de montre...</p>
+          <a href="#" class="text-indigo-600 flex items-center gap-2">Lire l'article<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+            <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+          </svg></a>
+        </div>
+      </div>
+
+      <div class="card w-auto ">
+        <img src="assets/img/Checkpoint Bootstrap 2.png" alt="card" class="rounded-md border-black"/>
+        <div class="card-body p-0 pt-2 bg-white text-black">
+          <div class="flex">
+            <div class="badge mr-2 py-4">
+              <a href="#" class="text-xs font-semibold sm:text-xs">HTML/CSS</a>
+            </div>
+            <div class="badge py-4">
+              <a href="#" class="text-xs font-semibold sm:text-xs"> Bootstrap</a>
+            </div>
+          </div>
+          <h2 class="card-title text-lg sm:text-xl">Checkpoint Bootstrap 2</h2>
+          <p class="text-sm sm:text-lg">Decouvrez comment coder un site vitrine pour vente de montre...</p>
+          <a href="#" class="text-indigo-600 flex items-center gap-2">Lire l'article<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+            <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+          </svg></a>
+        </div>
+      </div>
+    </div>
   </div>
 
 
-  <script>
-    const menuToggle = document.getElementById('menu-toggle');
-    const closeMenu = document.getElementById('close-menu');
-    const mobileMenu = document.getElementById('mobile-menu');
+  <div class="mx-4 my-10 py-24 px-10 rounded-xl text-center text-white bg-indigo-600 selection:bg-white selection:text-indigo-600 sm:m-20 sm:px-20 sm:py-32">
+    <h1 class="text-4xl font-Jost font-semibold mb-6  sm:text-[75px] sm:mb-10">Rush it your Idea with us</h1>
+    <p class="mb-6 lg::px-52 sm:mb-10">Ready to take your design to the next level? Contact us today to schedule a consultation and see how our team can bring your vision to life</p>
+    <button class="btn bg-white text-indigo-600 hover:bg-indigo-600 hover:text-white">Let's Make it <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+    </svg></button>
+  </div>
 
-    menuToggle.addEventListener('click', () => {
-      mobileMenu.classList.add('open');
-    });
-
-    closeMenu.addEventListener('click', () => {
-      mobileMenu.classList.remove('open');
-    });
-  </script>
-      
+  <footer class="flex flex-col w-full p-10 gap-8 sm:px-20 items-start justify-around sm:flex-row">
+    <div class="flex flex-col ">
+      <div class="flex items-center mb-3 -m-1.5 p-1.5">
+        <img class="h-9 w-auto" src="assets/logo/1.png" alt="TRENDY PINK">
+        <span class="text-2xl font-bold ml-2 font-Jost">TRENDY PINK</span>
+      </div>
+      <p class="text-xs">Blk. A-B Jl. Cikutra No.125,<br> Cikutra. Kec. Cibeunying Kidul,<br> Charlotte, North Carolina 40124</p>
+    </div>
+    
+    <div class="flex gap-5 ml-20">
+      <div class="flex flex-col pt-2">
+        <a href="#" class="flex items-center gap-2 text-indigo-600 mb-5">Onglets <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+          <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+        </svg></a>
+        <a href="#" class="text-xs mb-2">Blog</a>
+        <a href="#" class="text-xs mb-2">Travail</a>
+        <a href="#" class="text-xs mb-2">Équipe</a>
+      </div>
+  
+      <div class="flex flex-col pt-2">
+        <a href="#" class="flex items-center gap-2 text-indigo-600 mb-5 shrink ">Contactez-nous</a>
+        <div class="flex gap-2 justify-around">
+          <a href="https://instagram.com/">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+            </svg>
+          </a>
+          <a href="https://x.com/">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+              <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+            </svg>
+          </a>
+          <a href="https://www.github.com/">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+            </svg>
+          </a>
+        </div>
+    </div>
+  </footer>
 </body>
 </html>
